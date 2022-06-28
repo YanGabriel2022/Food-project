@@ -3,11 +3,21 @@ import React from "react"
 import image from "../assets/lasanha.png"
 import ratotouile from "../assets/ratatouile.png"
 import carne from "../assets/carne.png"
+import { BrowserRouter, Route, Routes,useNavigate }
+ from "react-router-dom"
+ import Page1 from "../Page1"
 function Card() {
-  return (
+  const Page1 = () =>{
+
+    const navegate = useNavigate()
+    return (
+
+    
+
     <div className="Card">
       <div className="image1 mt-5">
-        <img src={image} />
+        <img src={image} onClick={() => navegate('/Page1')
+        }/>
      <div>
        
      </div>
@@ -74,7 +84,9 @@ function Card() {
         </footer>
       </div>
     </div>
+    
 
   )
+}
 }
 export default Card;
