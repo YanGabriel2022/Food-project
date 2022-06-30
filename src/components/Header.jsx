@@ -1,8 +1,10 @@
 import "./Header.css"
 import React from "react"
 import Lupa from "../assets/Vector.svg"
+import Vec from "../assets/Vec.svg"
 import photo from "../assets/img.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Input } from "reactstrap"
 
 function Header() {
     return (
@@ -12,11 +14,15 @@ function Header() {
                 </div><header className="top1 d-flex justify-content-center"></header><div>
                 </div>
                 <div className="input1  d-flex justify-content-center">
-                    <label className="label-header">
-                        <input className="input-header" type="text" placeholder="Find a recipe" />
+                    <div className="label-header">
+                        <input className="input-header input-group mb-3" type="text" placeholder="Find a recipe"/>
+                      
+                        <span></span>
+                      
                         <div>
                         </div>
-                    </label>
+
+                    </div>
                 </div>
             </div>
             <div>

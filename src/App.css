@@ -1,12 +1,16 @@
 .App {
   text-align: center;
-  background-color: rgb(252, 244, 244);
+  background-color: #F9F9F9;
 
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+h1{
+  font-size: 4.5rem;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {

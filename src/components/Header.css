@@ -19,13 +19,15 @@
     width: 50%;
     padding: 4px;
     position: absolute;
+    border: solid #D6A255;;
+
 }
 .label-header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-
     .icon{
         display: flex;
         position: absolute;
