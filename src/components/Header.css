@@ -1,37 +1,45 @@
-
-.top1{
+.top1 {
     background-color: #D6A255;
-    padding: 30px;
+    padding: 51px;
     display: flex;
 }
-.header2{
+
+.header2 {
     background-color: antiquewhite;
     padding: 45px;
     display: flex;
     justify-content: space-around;
 }
-.input1{
+
+.input1 {
     background-color: #D6A255;
 }
-.input-header{
+
+.search {
+    background-color: white;
     display: flex;
     justify-content: center;
-    width: 50%;
-    padding: 4px;
-    position: absolute;
-    border: solid #D6A255;;
-
+    /* width: 50%;
+    padding: 4px; */
+    position: absolute !important;
+    border: 4px solid #D6A155 !important;
+    border-radius: 6px;
+    width: 42rem
 }
-.label-header{
+
+.label-header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-    .icon{
-        display: flex;
-        position: absolute;
-        margin-top: 12px;
-        margin-left: 7em;
-    }
 
+}
+
+.icon {
+    display: flex;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 7em;
+}
+.icon-image{
+    border-radius: 50%;
+}
