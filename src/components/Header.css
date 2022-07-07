@@ -3,6 +3,9 @@
     padding: 51px;
     display: flex;
 }
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border-color: white!important;
+}
 
 .header2 {
     background-color: antiquewhite;

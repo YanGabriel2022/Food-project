@@ -1,11 +1,14 @@
 import React from "react";
 import { BrowserRouter, Router } from "react-router-dom";
 import Card from "../components/Card";
+import Header from "../components/Header";
+
+
 
     function MainPage(){
         return(
             <>
-                <h1>Mãe, tô na main</h1>
+              <Header/>
                 <Card route="page1" />
            </>
         )

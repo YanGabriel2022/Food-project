@@ -33,3 +33,11 @@ width: 25em;
 .cards{
 margin-top: -26px;
 }
+.modalModal{
+    position: absolute !important;
+    height: 100% !important;
+    width: 30% !important;
+    top: 50% !important;
+    left: 50% !important;
+    background-color: #FFFFFF;
+  }

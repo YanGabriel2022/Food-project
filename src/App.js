@@ -15,13 +15,13 @@ function App() {
     <BrowserRouter>
 
     <div className="App">
-      <Header/>
+      <MainRoutes/>
+      {/* <Header/> */}
       <div className='d-flex justify-content-center '>
         <div>
-          <h1 className='mt-4'>Recipe of the day</h1>
+          {/* <h1 className='mt-4'>Recipe of the day</h1> */}
         </div>
       </div>
-      <MainRoutes />
 
     </div>
     </BrowserRouter>
