@@ -33,7 +33,7 @@ function Card({route}) {
           <footer className="footer-descript">
             <div className="mt-2">
 
-            <span>Pasta</span>
+            <span className="title-card">Pasta</span>
             <h5 className="name">Lasanha Bolonhesa</h5>
             <p className="p-description">Calories:584   Carbs:84g   Fat:20g   Protein:19g</p>
             </div>

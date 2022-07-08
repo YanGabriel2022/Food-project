@@ -1,6 +1,36 @@
 body{
   background-color: #F9F9F9;;
 }
-.content-image{
-
+.header-image{
+  width: 900px;
+  height: 302px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 1px 1px 8px rgb(0 0 0 / 20%)
+  
+}
+.descrip-image{
+  background-color: #FFFFFF;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 47rem;
+  box-shadow: 1px 1px 8px rgb(0 0 0 / 20%);
+  top: -90px;
+  position: relative;
+}
+span{
+font-size: 2rem;
+}
+.footer-image{
+  width: 100%;
+}
+.content-descrip{
+  width: 100%;
+}
+.title-image{
+  font-size: 2.50rem;
+}
+.ingredient{
+  font-size: 1rem;
 }

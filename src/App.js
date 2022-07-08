@@ -4,14 +4,19 @@ import Card from "./components/Card"
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+
+
 // import Page1 from './Page1';
 
 import MainRoutes from './routes';
 import New from './views/NewPage';
 
 
+
+
 function App() {
   return (
+    
     <BrowserRouter>
 
     <div className="App">
@@ -24,8 +29,8 @@ function App() {
       </div>
 
     </div>
-    </BrowserRouter>
 
+    </BrowserRouter>
   );
 }
 
