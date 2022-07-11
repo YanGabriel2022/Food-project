@@ -26,7 +26,7 @@ function Header() {
                 <div>
                 </div>
                 <div className="input1  d-flex justify-content-center">
-                    <div className="label-header col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div className="label-header col-12 col-sm-6 col-md-6 col-lg-6 col-xl-12">
                         <TextField
                             className="search"
                             placeholder="Find a recipe"
@@ -40,8 +40,6 @@ function Header() {
                                 )
                             }}
                         />
-
-
                     </div>
                 </div>
             </div>

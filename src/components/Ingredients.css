@@ -1,18 +1,19 @@
-.title-ingredient{
-  font-size: 3rem;
-  background-color: yellow;
-  display: inline-flex;
-    flex-direction: column;
+.title-ingredients{
+  font-size: 2rem;
     align-items: center;
     width: 47%;
     height: 100%;
+    margin-left: 4rem;
 }
 .checkbox{
   display: flex;
-  justify-content: center;
 }
 .container-ingred{
   width: 45%;
   justify-content: flex-start;
   display: grid;
+}
+.css-i4bv87-MuiSvgIcon-root{
+  font-size: 2rem !important;
+  color: #D6A255;
 }

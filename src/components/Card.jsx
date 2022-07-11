@@ -29,15 +29,12 @@ function Card({route}) {
           </div>
           <img className="icon" src={fav}></img>
         </div>
-        <div className="descrip">
-          <footer className="footer-descript">
+        <div className="descrip col-6">
             <div className="mt-2">
-
             <span className="title-card">Pasta</span>
             <h5 className="name">Lasanha Bolonhesa</h5>
             <p className="p-description">Calories:584   Carbs:84g   Fat:20g   Protein:19g</p>
             </div>
-          </footer>
         </div>
 
 
