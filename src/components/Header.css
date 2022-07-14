@@ -29,7 +29,11 @@
     position: absolute !important;
     border: 4px solid #D6A155 !important;
     border-radius: 6px;
+<<<<<<< HEAD
     width: 60%
+=======
+    width: 55%
+>>>>>>> 5a4bd3385359915ab817a4e0c597bb0f0f866c52
 }
 
 .label-header {

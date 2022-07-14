@@ -29,9 +29,12 @@ function Card({route}) {
           </div>
           <img className="icon" src={fav}></img>
         </div>
+<<<<<<< HEAD
         <div className="descrip">
+=======
+        <div className="descrip col-6">
+>>>>>>> 5a4bd3385359915ab817a4e0c597bb0f0f866c52
             <div className="mt-2">
-
             <span className="title-card">Pasta</span>
             <h5 className="name">Lasanha Bolonhesa</h5>
             <div className=' d-flex justify-content-around'>

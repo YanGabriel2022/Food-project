@@ -27,6 +27,7 @@ function Header() {
                 </div>
                 <div>
                 </div>
+<<<<<<< HEAD
                 <Grid
                 display="flex"
                 justifyContent="center"
@@ -36,6 +37,10 @@ function Header() {
                     <div className="label-header">
                         
 
+=======
+                <div className="input1  d-flex justify-content-center">
+                    <div className="label-header col-12 col-sm-6 col-md-6 col-lg-6 col-xl-12">
+>>>>>>> 5a4bd3385359915ab817a4e0c597bb0f0f866c52
                         <TextField
                             className="search"
                             placeholder="Find a recipe"
@@ -48,10 +53,14 @@ function Header() {
                                     </InputAdornment>
                                 )
                             }}
+<<<<<<< HEAD
                             />
                         
 
 
+=======
+                        />
+>>>>>>> 5a4bd3385359915ab817a4e0c597bb0f0f866c52
                     </div>
                 </div>
                             </Grid>

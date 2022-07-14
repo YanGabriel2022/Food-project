@@ -1,11 +1,9 @@
-.title-ingredient{
-  font-size: 3rem;
-  background-color: yellow;
-  display: inline-flex;
-    flex-direction: column;
+.title-ingredients{
+  font-size: 2rem;
     align-items: center;
     width: 47%;
     height: 100%;
+    margin-left: 4rem;
 }
 .checkbox{
   display: flex;
@@ -15,6 +13,7 @@
   justify-content: flex-start;
   display: grid;
 }
+<<<<<<< HEAD
 .css-i4bv87-MuiSvgIcon-root {
   font-size: 2rem !important;
   color: #D6A255;
@@ -24,4 +23,9 @@ li{
 }
 .preparation{
   font-size: 1rem;
+=======
+.css-i4bv87-MuiSvgIcon-root{
+  font-size: 2rem !important;
+  color: #D6A255;
+>>>>>>> 5a4bd3385359915ab817a4e0c597bb0f0f866c52
 }

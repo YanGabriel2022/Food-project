@@ -8,28 +8,36 @@ import image from "../assets/image.png"
 import Button from '../components/Button.jsx';
 import Ingredients from '../components/Ingredients';
 import {ingredients} from "../mock/ingredients"
+import imageHeader from "../assets/img-lasanha-large.png"
 function New() {
   return (
    <>
 <div className='New'>
   <div className='corpo d-flex justify-content-center'>
-    <div className='descript-body col-12' >
-      <div className='content-image'><img src={image} className="header-image"></img></div>
+    <div className='descript-body d-flex justify-content-center' >
+      <div className='image-window' style={{
+        backgroundImage: `url( ${imageHeader})`
+      }}></div>
     </div>    
   </div>
+<<<<<<< HEAD
   <div className='safdna'>
   <div className="descrip-image ">
+=======
+  <div className="row justify-content-md-center">
+>>>>>>> 5a4bd3385359915ab817a4e0c597bb0f0f866c52
           
       <div className="content-descrip mt-2">
-
+       <div className='.justify-content-md-center'>
           <span className='title'>Pasta</span>
           <h5 className="title-image">Lasanha Bolonhesa</h5>
-          <div className=' d-flex justify-content-around'>
-           <div><span className="p-description">Calories:584</span></div>
-           <div><span className="p-description">Carbs:84g</span></div>
-           <div><span className="p-description">Fat:20g</span></div>
-           <div><span className="p-description">Protein:19g</span></div>
+          <div className=' d-flex justify-content-evenly'>
+           <div><h4 className="p-description">Calories:584</h4></div>
+           <div><h4 className="p-description">Carbs:84g</h4></div>
+           <div><h4 className="p-description">Fat:20g</h4></div>
+           <div><h4 className="p-description">Protein:19g</h4></div>
             </div>
+       </div>
       </div>
         </div>
   </div>

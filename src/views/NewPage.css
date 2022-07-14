@@ -25,11 +25,18 @@ body{
 span{
 font-size: 2rem;
 }
+.image-window{
+  width: 25rem;
+  height: 19rem;
+}
 .footer-image{
   width: 100%;
 }
 .content-descrip{
-  width: 100%;
+  width: 56rem;
+  box-shadow: 1px 1px 8px rgb(0 0 0 / 20%);
+
+  
 }
 .title-image{
   font-size: 2.50rem;

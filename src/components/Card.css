@@ -4,6 +4,8 @@
     width: auto;
     height: auto;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+    max-width:340px;
+    width: auto;
 }
 .image1{
     display: flex;
@@ -19,7 +21,11 @@
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     width: 20rem;
+=======
+    width: 22.5em;
+>>>>>>> 5a4bd3385359915ab817a4e0c597bb0f0f866c52
 }
 .p-description{
 
@@ -29,8 +35,14 @@
     display: flex;
     position: absolute;
     margin-top: 12px;
+<<<<<<< HEAD
     margin-left: 8em;
 }
+=======
+    margin-left: 8.5em;
+}
+
+>>>>>>> 5a4bd3385359915ab817a4e0c597bb0f0f866c52
 .cards{
 margin-top: -26px;
 }

@@ -11,7 +11,10 @@ const theme = createTheme({
     MuiCheckbox: {
       styleOverrides: {
         root: {
+<<<<<<< HEAD
           
+=======
+>>>>>>> 5a4bd3385359915ab817a4e0c597bb0f0f866c52
         },
       },
     }
@@ -23,7 +26,11 @@ const Ingredients = ({ingredients}) => {
   return (
     <ThemeProvider theme={theme}>
     <div className='container-ingred container'>
+<<<<<<< HEAD
       <span className='title-ingredients display-5 d-flex'>Ingredients</span>
+=======
+      <h2 className='title-ingredients display-4'>Ingredients</h2>
+>>>>>>> 5a4bd3385359915ab817a4e0c597bb0f0f866c52
       {ingredients?.map((ingredient) => (
       <div className="checkbox">
       <FormGroup>
