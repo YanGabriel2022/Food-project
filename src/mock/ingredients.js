@@ -5,78 +5,54 @@ export const ingredients = [
   },
   {
     "id": 2,
-    "title": "500g de massa de lasanha"
+    "title": "500 g de carne moída"
   },
   {
     "id": 3,
-    "title": "500g de massa de lasanha"
+    "title": "2 caixas de creme de leite"
   },
   {
     "id": 4,
-    "title": "500g de massa de lasanha"
+    "title": "3 colheres de manteiga"
   },
   {
     "id": 5,
-    "title": "500g de massa de lasanha"
+    "title": "3 colheres de farinha de trigo"
   },
   {
     "id": 6,
-    "title": "500g de massa de lasanha"
+    "title": "500 g de presunto"
   },
   {
     "id": 7,
-    "title": "500g de massa de lasanha"
+    "title": "500 g de mussarela"
   },
   {
     "id": 8,
-    "title": "500g de massa de lasanha"
+    "title": "500 g de presunto"
   },
   {
     "id": 9,
-    "title": "500g de massa de lasanha"
+    "title": "sal a gosto"
   },
   {
     "id": 10,
-    "title": "500g de massa de lasanha"
+    "title": "1 cebola ralada"
   },
   {
     "id": 11,
-    "title": "500g de massa de lasanha"
+    "title": "3 colheres de óleo"
   },
   {
     "id": 12,
-    "title": "500g de massa de lasanha"
+    "title": "1 caixa de molho de tomate"
   },
   {
     "id": 13,
-    "title": "500g de massa de lasanha"
+    "title": "3 dentes de alho amassados"
   },
   {
     "id": 14,
-    "title": "500g de massa de lasanha"
+    "title": "1 pacote de queijo ralado"
   },
-  {
-    "id": 15,
-    "title": "500g de massa de lasanha"
-  },
-  {
-    "id": 16,
-    "title": "500g de massa de lasanha"
-  },
-  {
-    "id": 17,
-    "title": "500g de massa de lasanha"
-  },
-  {
-    "id": 18,
-    "title": "500g de massa de lasanha"
-  },
-  {
-    "id": 19,
-    "title": "500g de massa de lasanha"
-  },
-  {
-    "id": 20,
-    "title": "500g de massa de lasanha"
-  }
 ]

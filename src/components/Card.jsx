@@ -30,14 +30,17 @@ function Card({route}) {
           <img className="icon" src={fav}></img>
         </div>
         <div className="descrip">
-          <footer className="footer-descript">
             <div className="mt-2">
 
             <span className="title-card">Pasta</span>
             <h5 className="name">Lasanha Bolonhesa</h5>
-            <p className="p-description">Calories:584   Carbs:84g   Fat:20g   Protein:19g</p>
+            <div className=' d-flex justify-content-around'>
+           <div><span className="recip-description">Calories:584</span></div>
+           <div><span className="recip-description">Carbs:84g</span></div>
+           <div><span className="recip-description">Fat:20g</span></div>
+           <div><span className="recip-description">Protein:19g</span></div>
             </div>
-          </footer>
+            </div>
         </div>
 
 
@@ -51,13 +54,16 @@ function Card({route}) {
  
         </div>
         <div className="descrip">
-          <footer className="footer-descript">
             <div className="mt-2">
-            <span>Vegan</span>
+            <span className="title-card">Vegan</span>
             <h5 className="name">Ratatoille</h5>
-            <p className="p-description">Calories:584   Carbs:84g   Fat:20g   Protein:19g</p>
+            <div className=' d-flex justify-content-around'>
+           <div><span className="recip-description">Calories:584</span></div>
+           <div><span className="recip-description">Carbs:84g</span></div>
+           <div><span className="recip-description">Fat:20g</span></div>
+           <div><span className="recip-description">Protein:19g</span></div>
             </div>
-          </footer>
+            </div>
         </div>
       </div>
 
@@ -67,13 +73,16 @@ function Card({route}) {
           <img className="icon" src={fav}></img>
         </div>
         <div className="descrip">
-          <footer className="footer-descript">
             <div className="mt-2">
-            <span>Meat</span>
+            <span className="title-card">Meat</span>
             <h5 className="name">Carne alemã na panela de pressão</h5>
-            <p className="p-description">Calories:584   Carbs:84g   Fat:20g   Protein:19g</p>
+            <div className=' d-flex justify-content-around'>
+           <div><span className="recip-description">Calories:584</span></div>
+           <div><span className="recip-description">Carbs:84g</span></div>
+           <div><span className="recip-description">Fat:20g</span></div>
+           <div><span className="recip-description">Protein:19g</span></div>
             </div>
-          </footer>
+            </div>
         </div>
       </div>
 
@@ -83,13 +92,16 @@ function Card({route}) {
           <img className="icon" src={fav}></img>
         </div>
         <div className="descrip">
-          <footer className="footer-descript">
             <div className="mt-2">
-            <span>Pasta</span>
+            <span className="title-card">Pasta</span>
             <h5 className="name">Lasanha Bolonhesa</h5>
-            <p className="p-description">Calories:584   Carbs:84g   Fat:20g   Protein:19g</p>
+            <div className=' d-flex justify-content-around'>
+           <div><span className="recip-description">Calories:584</span></div>
+           <div><span className="recip-description">Carbs:84g</span></div>
+           <div><span className="recip-description">Fat:20g</span></div>
+           <div><span className="recip-description">Protein:19g</span></div>
             </div>
-          </footer>
+            </div>
         </div>
       </div>
       </div>

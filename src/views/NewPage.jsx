@@ -17,7 +17,8 @@ function New() {
       <div className='content-image'><img src={image} className="header-image"></img></div>
     </div>    
   </div>
-  <div className="descrip-image">
+  <div className='safdna'>
+  <div className="descrip-image ">
           
       <div className="content-descrip mt-2">
 
@@ -31,6 +32,7 @@ function New() {
             </div>
       </div>
         </div>
+  </div>
         <div className='ingredient'>
         </div>
         <Ingredients ingredients={ingredients}/>

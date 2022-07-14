@@ -10,6 +10,7 @@ import { Favorite, Search } from "@mui/icons-material"
 import Pasta from "../assets/lasanha-icon.png"
 import Vegan from "../assets/ratatouile-icon.png"
 import Meat from "../assets/carne-icon.png"
+import { Grid } from "@mui/material"
 
 
 
@@ -17,16 +18,24 @@ function Header() {
     return (
         <div className="Main-Header">
             <div className="">
-                <div className="">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div>
+                        <Grid xs={12} sm={12} md={12} lg={4} xl={4}>
                         <header className="top1 d-flex justify-content-center"></header>
-
+                        </Grid>
                     </div>
                 </div>
                 <div>
                 </div>
-                <div className="input1  d-flex justify-content-center">
-                    <div className="label-header col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <Grid
+                display="flex"
+                justifyContent="center"
+                >
+
+                <div className="input1">
+                    <div className="label-header">
+                        
+
                         <TextField
                             className="search"
                             placeholder="Find a recipe"
@@ -39,11 +48,13 @@ function Header() {
                                     </InputAdornment>
                                 )
                             }}
-                        />
+                            />
+                        
 
 
                     </div>
                 </div>
+                            </Grid>
             </div>
             <div>
                 <header className="header2">
